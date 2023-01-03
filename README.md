@@ -1,2 +1,2 @@
-# tizen-react-spatial-nav
+# spatial-virtualization
 Created with CodeSandbox

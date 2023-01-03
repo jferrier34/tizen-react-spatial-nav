@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.viewport-root {
+  height: 200px;
+  background-color: darkorange;
+  margin-top: 350px;
+  /* overflow-y: auto; */
+  position: relative;
+}
+
+.rows-container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border: solid 3px red;
+  max-width: 300px;
+  transition: transform 200ms ease-out;
+  position: relative;
+}
+
+.focus-border {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
